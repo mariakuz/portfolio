@@ -86,12 +86,49 @@
   /* ==========================================================================
      Author's custom styles
      ========================================================================== */
-     body {
+    body {
         font-family: 'Poppins', sans-serif;
+    } 
+    main {
         max-width: 680px;
+        margin: 0 auto;
     }
-
-
+    .byline {
+        margin: 0.5em 0 1em 0;
+    }
+    address {
+        font-size: 2.5em;
+    }
+    h1 {
+        font-size: 7em;
+        margin: .75em 0 0 0;
+        background: #F0D51D;
+    }
+    @media screen and (max-width: 500px) {
+        h1 {
+          font-size: 5em;
+        }
+    }
+    h2 {
+        font-size: 3em;
+    }
+    
+    h3 {
+        font-size: 2em;
+        font-weight: bold;
+    }
+      
+    h4 {
+        font-weight: 600;
+    }
+      
+      h5 {
+        font-size: 1.5em;
+      }
+      
+      h6 {
+        font-size: 1.2em;
+      } */
 
   /* ==========================================================================
      Helper classes
